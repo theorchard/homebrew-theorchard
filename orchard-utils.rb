@@ -5,8 +5,6 @@ class OrchardUtils < Formula
     sha256 "c7eba8ecd8e1b3d03f9787ac08ae43546ff33df55924e8202fd23efe2fcbaa95"
     license "MIT"
 
-    depends_on "aws"
-
     def install
         bin.install 'aws-creds-generator/aws-session-login'
         bin.install 'ecr-login/ecr-login'
@@ -22,6 +20,6 @@ class OrchardUtils < Formula
         #
         # The installed folder is not in the path, so use the entire path to any
         # executables being tested: `system "#{bin}/program", "do", "something"`.
-        system "#{bin}/ecr-login.sh"
+        system "false"
     end
 end
