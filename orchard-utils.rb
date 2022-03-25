@@ -1,8 +1,8 @@
 class OrchardUtils < Formula
     desc "Orchard Utilities"
-    homepage "https://github.com/jayfid/orchard-utils"
+    homepage "https://github.com/theorchard/orchard-utils"
     url "https://github.com/theorchard/orchard-utils/archive/refs/tags/v0.0.1-alpha1.tar.gz"
-    sha256 "FILL-THIS-IN"
+    sha256 "c7eba8ecd8e1b3d03f9787ac08ae43546ff33df55924e8202fd23efe2fcbaa95"
     license "MIT"
 
     depends_on "aws"
