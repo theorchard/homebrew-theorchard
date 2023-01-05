@@ -1,8 +1,8 @@
 class OrchardUtils < Formula
     desc "Orchard Utilities"
     homepage "https://github.com/theorchard/orchard-utils"
-    url "https://github.com/theorchard/orchard-utils/archive/refs/tags/v0.0.1-beta1.tar.gz"
-    sha256 "b9e136c4e374762eeed8df7ac850c185b05c673c28344ad92eaa832ccfa44a17"
+    url "https://github.com/theorchard/orchard-utils/archive/refs/tags/v0.0.1-beta2.tar.gz"
+    sha256 "b6001306b5101e47c82673282530b177f647544692b9fb34225b930e0fa57b10"
     license "MIT"
 
     def install
